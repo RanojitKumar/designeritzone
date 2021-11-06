@@ -3,3 +3,35 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+main h1 {
+    background: #10416c;
+    padding: 20px;
+    color: #fff;
+    font-size: xx-large;
+    border-radius: 50px;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+h2, p {
+    margin: 10px;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 15px;
+}
